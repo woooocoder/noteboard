@@ -1,10 +1,12 @@
 import './App.css';
-import User from './views/User';
+import Login from './views/Login';
+// import UserPage from './views/UserPage';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <User />
+        <Login />
+        {/* <UserPage /> */}
       </header>
     </div>
   );
